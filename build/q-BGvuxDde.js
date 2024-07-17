@@ -1,0 +1,1 @@
+import{x as a,c as s,d as e,S as o}from"./q-BctSZDiH.js";const u=n=>a("a",null,{class:"page-block",href:s(l=>l.href,[n])},[a("h3",null,null,s(l=>l.name,[n]),3,null),e(o,null,3,"EQ_0")],1,"EQ_1");export{u as s_E7S4bAezoIg};

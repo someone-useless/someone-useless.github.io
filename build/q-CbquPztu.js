@@ -1,0 +1,1 @@
+import{_ as o}from"./q-uemlvruI.js";import{A as e,q as r}from"./q-BctSZDiH.js";function _(t){return t.charAt(0).toUpperCase()+t.substring(1).toLowerCase()}const i=e(r(()=>o(()=>import("./q-CF9xiNWY.js"),[]),"s_R0S0tHNPIK8"));export{_ as _auto_toTitleCase,i as default};
