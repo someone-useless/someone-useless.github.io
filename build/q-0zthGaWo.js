@@ -1,1 +1,0 @@
-import{_ as t}from"./q-uemlvruI.js";import{A as o,q as e}from"./q-BctSZDiH.js";const a=o(e(()=>t(()=>import("./q-BGvuxDde.js"),[]),"s_E7S4bAezoIg")),n=o(e(()=>t(()=>import("./q-Xjd4lPTa.js"),[]),"s_GgM1zJ2j1go")),r={title:"USELESS STUFFS",meta:[{name:"just some useless stuffs",content:"i don't know what can i put"}]};export{a as PageBlock,n as default,r as head};
