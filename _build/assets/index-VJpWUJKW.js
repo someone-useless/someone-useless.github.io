@@ -1,0 +1,1 @@
+import{p as e,y as a}from"./web-D3OS7vh0.js";var t=a("<div id=page><a href=/ id=back-button>BACK TO THE HELL</a><h1>STACK 10!</h1><br><a href=./rules class=subpage>Rules</a><br><a href=./game class=subpage>Game");function s(){return e(t)}export{s as default};
