@@ -29,7 +29,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-C_cjcewo.js",
+    "file": "assets/index-BE7BnN54.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -42,7 +42,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-C2NjB6zD.js",
+    "file": "assets/client-DAgtSA4Y.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
