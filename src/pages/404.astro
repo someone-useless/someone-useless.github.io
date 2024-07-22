@@ -1,0 +1,68 @@
+---
+import Page from "layouts/Page.astro";
+---
+
+<Page title="Lost.">
+    <h1>
+        WELCOME TO <br />
+        <strong>HELL</strong> ?
+    </h1>
+
+    <div id="contents">
+        <p>You get lost.</p>
+
+        <a href="/">GO BACK HERE.</a>
+    </div>
+</Page>
+
+<style lang="less" is:global>
+    @text-color: rgb(236, 202, 243);
+    @title-color: rgb(165, 11, 189);
+    @bg-color: rgba(43, 1, 50, 0.9);
+
+    body {
+        background: linear-gradient(0deg, @bg-color, @bg-color), url("/bg.png");
+        background-size: contain;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: repeat;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+
+        a {
+            color: @text-color;
+        }
+
+        color: @text-color;
+
+        h1 {
+            text-align: center;
+            color: @title-color;
+
+            strong {
+                font-size: 125%;
+            }
+
+            margin: 2rem 0 6rem 0;
+        }
+
+        h3 {
+            color: @title-color;
+            text-align: center;
+        }
+
+        #contents {
+            margin: 1rem 2rem 0rem 2rem;
+            padding: 2rem 1rem;
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(64, 52, 66);
+        }
+    }
+</style>

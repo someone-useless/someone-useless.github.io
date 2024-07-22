@@ -1,0 +1,126 @@
+---
+import Rules from "components/stack-ten/rules/Rules";
+import Page from "layouts/Page.astro";
+
+
+---
+
+<Page title="STACK 10 RULES">
+    <a href=".." id="back-button">Back to Stack 10!</a>
+    <Rules client:load />
+</Page>
+
+<style lang="less" is:global>
+    @import "global-utils.less";
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.5rem 1rem 1.5rem;
+
+        @media (max-width: 600px) {
+            h1 {
+                margin-top: 3rem;
+            }
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #back-button {
+            position: fixed;
+            top: 0;
+            left: 0;
+            color: white;
+            text-decoration: none;
+            display: block;
+            border-radius: 0 0 15px 0;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            .on-hover-underline();
+        }
+
+        #back-button:hover {
+            text-decoration: underline;
+        }
+
+        #page-column {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 1rem;
+
+            #page-button {
+                color: white;
+                .on-hover-underline();
+                width: fit-content;
+                display: block;
+                border-radius: 15px;
+                padding: 10px;
+                margin: 2rem 1rem;
+                background-color: rgb(0, 0, 0);
+                text-align: center;
+                font-family: inherit;
+                font-size: medium;
+            }
+        }
+
+        .card {
+            border: 2px solid black;
+            width: fit-content;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            margin: 0 1rem;
+            height: 8rem;
+            border-radius: 1rem;
+
+            .operation {
+                font-weight: bold;
+            }
+        }
+
+        .stack {
+            &.empty {
+                padding: 6px;
+            }
+
+            margin: 1rem;
+            align-self: center;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            border: 2px dotted black;
+            padding: 2px 6px 6px 6px;
+
+            .stack-top {
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+
+                strong {
+                    font-size: small;
+                }
+            }
+
+            .stack-item {
+                box-sizing: border-box;
+                width: fit-content;
+                height: fit-content;
+                padding: min(1.25svw, 1rem);
+                border: 2px solid black;
+                margin: 0 3px;
+            }
+        }
+
+        .stack-desc {
+            align-self: center;
+            font-size: small;
+            margin-bottom: 0.5rem;
+        }
+    }
+</style>

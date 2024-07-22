@@ -1,5 +1,5 @@
 {
-  "name": "frontend-astro",
+  "name": "useless-site",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,8 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.12.2",
     "@astrojs/check": "^0.8.2",
+    "@astrojs/solid-js": "^4.4.0",
+    "astro": "^4.12.2",
+    "less": "^4.2.0",
+    "solid-js": "^1.8.18",
     "typescript": "^5.5.3"
   }
 }
