@@ -1,11 +1,9 @@
-import { createMemo, createSignal, lazy, Match, Show, Switch } from "solid-js";
-import { RulePage1, RulePage2 } from "./RulePages";
-
-
+import { createMemo, createSignal, Match, Show, Switch } from "solid-js";
+import { RulePage1, RulePage2, RulePage3, RulePage4, RulePage5 } from "./RulePages";
 
 export default function Rules() {
     const [page_index, set_page_index] = createSignal(0);
-    const pages = [<RulePage1 /*@once*/ />, <RulePage2 /*@once*/ />];
+    const pages = [RulePage1, RulePage2, RulePage3, RulePage4, RulePage5];
     const page = createMemo(() => pages[page_index()]);
     return <>
         {page()}
